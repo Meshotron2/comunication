@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Meshotron-PECI</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Meshotron Cluster</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tasks">Tasks</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#materials">Materials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Group8</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Projeto em Engenharia de Compudares e Informática</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Meshotron é um projeto que visa a criação de um super computador para fazer cálculos enormes. Paralelização acústica é um dos focos do projeto.</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Detalhes do Projeto</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">
+                            Meshotron visa construir
+                            uma plataforma de baixo custo para demonstrar o conceito e facilitar o seu aperfeiçoamento.
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Implementa DWM (digital-waveguide 
+                                    modelling), dividindo em pequenos blocos (data partitioning)</li><br>
+                                <li>Usa topologia de malha 3D (cada unidade comunica com 6 vizinhos)</li><br>
+                                <li>Efetua cálculos usando um algoritmo de forma optmizada e rápida</li>
+                            </ul>
+                        </p>
+                        <a class="btn btn-light btn-xl" href="#tasks">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="tasks">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Tarefas Principais do projeto</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Fase 1</h3>
+                            <p class="text-muted mb-0">
+                                Estudo da arquitectura e ambiente de desenvolvimento de unidades 
+                                computacionais de baixo 
+                                custo (e.g. RPi) e suas aplicações em computação paralela
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Fase 2</h3>
+                            <p class="text-muted mb-0">
+                                Familiarização com o algoritmo de modelação acústica DWM 3D 
+                                (ou outro algoritmo FDTD paralelizável de modo semelhante – crowd computing)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Fase 3</h3>
+                            <p class="text-muted mb-0">
+                                Selecção e programação de uma unidade computacional para executar o algoritmo num bloco 
+                                do modelo acústico e estabelecer links de comunicação de dados com 6 unidades idênticas 
+                                alocadas a blocos adjacentes
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Fase 4</h3>
+                            <p class="text-muted mb-0">
+                                Interligação de um pequeno conjunto de 
+                                unidades a computador host (e.g. por 
+                                Ethernet – vide figura) para download do 
+                                modelo particionado (um bloco a cada 
+                                unidade) e injecção/recolha dos sinais 
+                                áudio de excitação/resposta. Finalmente realizadno o teste do sistema
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Materials-->
+        <div id="materials">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                 
+                   
+                    
+                    <h2 class="text-center mt-0">Materiais usados no Projeto</h2>
+                    <p class="text-center">
+                        <ul class="text-center">
+                            <li>8 unidades de Raspberry Pi B</li>
+                            <li>RackPi ou Cluster Case for RPi</li>
+                            <li>Switch com 9 portas </li>
+                            <li>Cabos RJ45 tipo direto</li>
+                            
+                        </ul>
+                    </p>
+                  
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Integrantes do Grupo 8</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Sinta-se a vontade para falar conosco</p>
+                    </div>
+                </div>
+                <div class="container mt-3">          
+                    <table class="table table-dark">
+                      <thead>
+                        <tr>
+                          <th>Primeiro e Último nome</th>
+                          <th>E-mail</th>
+                          <th>Número Mec.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Jodionísio Muachifi</td>
+                          <td>jodionisiomuachifi@ua.pt</td>
+                          <td>97147</td>
+                        </tr>
+                        <tr>
+                          <td>João Felisberto</td>
+                          <td>joaofelisberto@ua.pt</td>
+                          <td>xxxxx</td>
+                        </tr>
+                        <tr>
+                          <td>Ruben Castelhano</td>
+                          <td>rubencastelhano@ua.pt</td>
+                          <td>xxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>Bruno Silva</td>
+                            <td>brunosilva16@ua.pt</td>
+                            <td>xxxxx</td>
+                          </tr>
+                          <tr>
+                            <td>Marta Oliveira</td>
+                            <td>marta.alex@ua.pt</td>
+                            <td>xxxxx</td>
+                          </tr>
+                          <tr>
+                            <td>Vasco Santos</td>
+                            <td>vascovsantos@ua.pt</td>
+                            <td>xxxxx</td>
+                          </tr>
+                          
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - LECI-PECI-GRUPO8</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
