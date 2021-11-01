@@ -28,7 +28,7 @@ Calendário
 
 - Milestones, exames, students@deti
 
-Descrver milestones
+Descrever milestones
 
 Entregas
 
@@ -42,7 +42,7 @@ Ferramentas em uso (github, jira e discord)
 
 ## Distribuição de tarefas
 
-Divisão por módilos
+Divisão por módulos
 
 Membros por módulo
 
