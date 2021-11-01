@@ -1,0 +1,8 @@
+# https://pandoc.org/MANUAL.html#variables-for-beamer-slides
+#author:
+#  - "Name 1"
+#  - "Name 2"
+title: "Meshotron"
+subtitle: "Um cluster de baixo custo para processamento de som em tempo real"
+theme: "Antibes"
+colortheme: "beaver"
