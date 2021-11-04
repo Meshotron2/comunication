@@ -1,6 +1,6 @@
 ## Contexto
 
-TODO
+Este projeto enquadra-se no projeto Meshotron, que pretende criar um ASH para análise acústica de salas paralela.
 
 ## Problema
 
@@ -8,7 +8,7 @@ Análise da propagação de som numa sala demora demasiado tempo e consome demas
 
 ## Objetivos
 
-Paralelizar DWM para acelerar o processo.
+Implementar o Meshotron em unidades computacionais de baixo custo.
 
 Idealmente atingir velocidades perto de análise em tempo real para salas não muito grandes.
 
@@ -23,11 +23,16 @@ Tornar a análise sonora de uma sala mais financeiramente acessível.
 - Website
 
 ## Resultados esperados
-Obter um cluster capaz de tornar o processamento de som tantas vezes mais rápido quantos nós ele tem.
+
+Para um cluster de N nós obter um processamento N vezes mais rápido.
+
+Idealmente este projeto comprovará a viabilidade de se converter este cluster num ASH.
 
 ## Trabalho relacionado
 
-TODO inserir as teses e alguns clusters.
+- Sara Barros e Guilherme Campos (2010) ‘Unidades ASH para paralelização de modelos acústicos DWM tridimensionais’. 6as Jornadas Portuguesas de Arquitecturas Reconfiguráveis (REC’2010), Aveiro, Fevereiro 2010.
+-  Carlos Romeiro, Guilherme Campos e Arnaldo Oliveira (2011) ‘Design and Simulation of a Rectangular Meshotron Unit Prototype’. Symposium on Application Accelerators in High Performance Computing (SAAHPC’11), Knoxville, Tennessee, 19-21 Julho.
+- Kris Wouk (2020) ‘Eight Awesome Raspberry Pi Clusters’. IoT Tech Trends.
 
 ## Calendário
 
@@ -35,11 +40,10 @@ TODO inserir as teses e alguns clusters.
 
 ## Plano de comunicação
 
-Site
-
-Ferramentas em uso (github, jira e discord)
-
-(Posição e lista de tarefas por membro da equipa)
+- Site
+- Github
+- Jira
+- Discord
 
 ## Distribuição de tarefas
 
