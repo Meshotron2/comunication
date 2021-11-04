@@ -3,6 +3,8 @@
 #  - "Name 1"
 #  - "Name 2"
 title: "Meshotron"
+author:
+  - João
 subtitle: "Um cluster de baixo custo para processamento de som em tempo real"
 theme: "Antibes"
 colortheme: "beaver"

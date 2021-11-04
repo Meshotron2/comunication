@@ -1,24 +1,24 @@
 ## Contexto
 
-Este projeto enquadra-se no projeto Meshotron, que pretende criar um ASH para análise acústica de salas paralela.
+Este projeto enquadra-se no projeto Meshotron, que pretende criar um ASH para análise acústica paralela de salas.
 
 ## Problema
 
 Análise da propagação de som numa sala demora demasiado tempo e consome demasiados recursos.
 
+Temos provas de que este modelo resolve estes problemas, mas fazer ASHs é muito caro.
+
 ## Objetivos
 
-Implementar o Meshotron em unidades computacionais de baixo custo.
-
-Idealmente atingir velocidades perto de análise em tempo real para salas não muito grandes.
-
-Tornar a análise sonora de uma sala mais financeiramente acessível.
+- Tornar a análise sonora de uma sala mais financeiramente acessível.
+- Implementar o Meshotron em unidades computacionais de baixo custo.
+- Idealmente atingir velocidades perto de análise em tempo real para salas não muito grandes.
 
 ## Tarefas
 
 - Selecionar a placa
 	+ Ter em conta os requisitos de comunicação
-- Portar DWM para correr na placa
+- Portar DWM para correr nas placas
 - Fazer o programa que distribui os dados pelo cluster
 - Website
 
@@ -40,7 +40,7 @@ Idealmente este projeto comprovará a viabilidade de se converter este cluster n
 
 ## Plano de comunicação
 
-- Site
+- Site \small https://meshotron2.github.io/comunication/meshotron/
 - Github
 - Jira
 - Discord
