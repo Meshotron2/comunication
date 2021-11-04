@@ -1,36 +1,37 @@
 ## Contexto
 
-Lorem ipsum dolor sit amet.
+TODO
 
 ## Problema
 
-Lorem ipsum dolor sit amet.
+Análise da propagação de som numa sala demora demasiado tempo e consome demasiados recursos.
 
 ## Objetivos
 
-Lorem ipsum dolor sit amet.
+Paralelizar DWM para acelerar o processo.
+
+Idealmente atingir velocidades perto de análise em tempo real para salas não muito grandes.
+
+Tornar a análise sonora de uma sala mais financeiramente acessível.
 
 ## Tarefas
 
-Lorem ipsum dolor sit amet.
+- Selecionar a placa
+	+ Ter em conta os requisitos de comunicação
+- Portar DWM para correr na placa
+- Fazer o programa que distribui os dados pelo cluster
+- Website
 
 ## Resultados esperados
-
-Lorem ipsum dolor sit amet.
+Obter um cluster capaz de tornar o processamento de som tantas vezes mais rápido quantos nós ele tem.
 
 ## Trabalho relacionado
 
-Lorem ipsum dolor sit amet.
+TODO inserir as teses e alguns clusters.
 
 ## Calendário
 
-Calendário
-
-- Milestones, exames, students@deti
-
-Descrever milestones
-
-Entregas
+![Calendário](./plano.PNG)
 
 ## Plano de comunicação
 
@@ -42,8 +43,4 @@ Ferramentas em uso (github, jira e discord)
 
 ## Distribuição de tarefas
 
-Divisão por módulos
-
-Membros por módulo
-
-Tarefas por módulo
+Pela metodologia Agile será feita dinamicamente a cada sprint.
