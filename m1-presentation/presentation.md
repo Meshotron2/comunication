@@ -2,6 +2,7 @@
 
 Este projeto enquadra-se no projeto Meshotron, que pretende criar um ASH para análise acústica paralela de salas.
 
+<!--
 ## Equipa
 
 Deste projeto irão fazer parte os alunos do grupo 8 da unidade curricular PECI de LECI sendo eles:
@@ -13,6 +14,7 @@ Deste projeto irão fazer parte os alunos do grupo 8 da unidade curricular PECI 
 - Vasco Santos
 
 Contando com a orientação do professor Guilherme Campos e coorientação do professor Arnaldo Oliveira.
+-->
 
 ## Problema
 

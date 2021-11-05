@@ -11,6 +11,9 @@ author:
   - Marta\ Oliveira
   - Ruben Castelhano
   - Vasco Santos
+coauthor:
+  - Orientador:\ prof.\ Guilherme\ Campos
+  - Co\ orientador:\ prof.\ Arnaldo\ Oliveira
 subtitle: "Um cluster de baixo custo para processamento de som em tempo real"
 theme: "Antibes"
 colortheme: "beaver"
