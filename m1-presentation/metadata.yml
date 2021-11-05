@@ -4,7 +4,13 @@
 #  - "Name 2"
 title: "Meshotron"
 author:
-  - João
+#  - "Grupo 8"
+  - Bruno Silva
+  - João Felisberto
+  - Jodionísio Muachifi
+  - Marta\ Oliveira
+  - Ruben Castelhano
+  - Vasco Santos
 subtitle: "Um cluster de baixo custo para processamento de som em tempo real"
 theme: "Antibes"
 colortheme: "beaver"

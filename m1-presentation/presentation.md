@@ -4,7 +4,7 @@ Este projeto enquadra-se no projeto Meshotron, que pretende criar um ASH para an
 
 ## Equipa
 
-Deste projeto irá fazer parte os alunos do grupo 8 da unidade curricular PECI de LECI sendo eles:
+Deste projeto irão fazer parte os alunos do grupo 8 da unidade curricular PECI de LECI sendo eles:
 - Bruno Silva
 - João Felisberto
 - Jodionísio Muachifi
@@ -12,7 +12,7 @@ Deste projeto irá fazer parte os alunos do grupo 8 da unidade curricular PECI d
 - Ruben Castelhano
 - Vasco Santos
 
-Contando com a orientação do professor Guilherme Campos e coorientação de Arnaldo Oliveira.
+Contando com a orientação do professor Guilherme Campos e coorientação do professor Arnaldo Oliveira.
 
 ## Problema
 
@@ -47,7 +47,7 @@ Idealmente este projeto comprovará a viabilidade de se converter este cluster n
 ## Trabalho relacionado
 
 - Sara Barros e Guilherme Campos (2010) ‘Unidades ASH para paralelização de modelos acústicos DWM tridimensionais’. 6as Jornadas Portuguesas de Arquitecturas Reconfiguráveis (REC’2010), Aveiro, Fevereiro 2010.
--  Carlos Romeiro, Guilherme Campos e Arnaldo Oliveira (2011) ‘Design and Simulation of a Rectangular Meshotron Unit Prototype’. Symposium on Application Accelerators in High Performance Computing (SAAHPC’11), Knoxville, Tennessee, 19-21 Julho.
+- Carlos Romeiro, Guilherme Campos e Arnaldo Oliveira (2011) ‘Design and Simulation of a Rectangular Meshotron Unit Prototype’. Symposium on Application Accelerators in High Performance Computing (SAAHPC’11), Knoxville, Tennessee, 19-21 Julho.
 - Kris Wouk (2020) ‘Eight Awesome Raspberry Pi Clusters’. IoT Tech Trends.
 
 ## Calendário
