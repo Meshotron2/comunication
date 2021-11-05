@@ -37,7 +37,6 @@ O problema físico que queremos solucionar é a modelação acústica.
 - Portar DWM para correr nas placas
 - Fazer o programa que distribui os dados pelo cluster
 - Website
-- Revisão dos sistemas
 
 ## Resultados esperados
 
@@ -66,4 +65,6 @@ Idealmente este projeto comprovará a viabilidade de se converter este cluster n
 
 Pela metodologia Agile será feita dinamicamente a cada sprint.
 
-As frentes de trabalho não são completamente definidas pois cada membro irá trabalho nos diferentes tópicos, esta foi uma sugestão do próprio orientador para que haja flexibilidade e compreensão de todos os componentes por parte de cada indivíduo.
+Todos os elementos do grupo irão trabalhar nas diferentes frentes de trabalho, num sistema de rotatividade.
+
+No final de cada sprint cada um dos elementos poderá integrar uma frente diferente.
