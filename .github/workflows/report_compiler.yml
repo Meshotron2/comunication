@@ -6,8 +6,8 @@ name: Compile Reports
 on: 
   push:
     paths:
-      - '/.github/workflows/report_compiler.yml'
-      - '/m2-presentation-soa-report/SoA.md'
+      - '.github/workflows/report_compiler.yml'
+      - 'm2-presentation-soa-report/SoA.md'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,8 +22,8 @@ jobs:
       - uses: actions/checkout@v2
 
 #       # Runs a single command using the runners shell
-#       - name: File check
-#         run: ls -a
+      - name: File check
+        run: ls -Ra
         
       - name: Pandoc Document Converter
         # https://github.com/maxheld83/pandoc-action
