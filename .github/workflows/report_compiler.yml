@@ -6,8 +6,8 @@ name: Compile Reports
 on: 
   push:
     paths:
-      - '.github/workflows/report_compiler.yml'
-      - 'm2-presentation-soa-report/SoA.md'
+      - '/.github/workflows/report_compiler.yml'
+      - '/m2-presentation-soa-report/SoA.md'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -37,5 +37,5 @@ jobs:
           git config --global user.name 'Pandoc Compiler'
           git config --global user.email 'bot@noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add out.pdf
+          git add *.pdf
           git commit -am "Compiled pdf" && git push || echo "No changes to commit"
