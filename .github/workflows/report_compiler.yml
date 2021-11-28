@@ -23,7 +23,7 @@ jobs:
 
 #       # Runs a single command using the runners shell
       - name: File check
-        run: ls -Ra
+        run: ls -Rla
         
       - name: Pandoc Document Converter
         # https://github.com/maxheld83/pandoc-action
